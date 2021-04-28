@@ -1,0 +1,89 @@
+/* .bulb_img{
+    width: 50px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#loginSection{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#login {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.singleBox{
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+.singleBox-1{
+    background-color: rgb(111, 235, 107);
+}
+.singleBox-2{
+    background-color: rgb(206, 179, 62);
+}
+.singleBox-3{
+    background-color: rgb(56, 92, 141);
+}
+#inputBoxSection{
+    display: none;
+}
+.inputBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.inputSingleBox{
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+}
+.container{
+    overflow: hidden;
+    background-color: gray;
+}
+.phoneSection, .caseSection, .priceSection{
+    background-color: white;
+    margin: 25px;
+}
+.phoneSection, .caseSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.phoneSection_left,.phoneSection_left img, .phoneSection_right, .caseSection_left, .caseSection_right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.phone_count, .phone_price, .case_count, .case_price{
+    width: 40%;
+}
+body{
+    font-size: 30px;
+}
+.caseSection_left img{
+    width: 40%;
+}
+i{
+    cursor: pointer;
+}
